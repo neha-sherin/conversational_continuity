@@ -15,4 +15,6 @@ module add u18/cudnn/7.6-cuda-10.0
 #source /home2/neha.sherin/miniconda3/bin/activate
 #conda activate py37
 
-python3 train.py -p config/DT/preprocess.yaml -m config/DT/model.yaml -t config/DT/train.yaml
+# python3 train.py -p config/DT/preprocess.yaml -m config/DT/model.yaml -t config/DT/train.yaml
+
+python3 train.py -p config/Blizzard/preprocess.yaml -m config/Blizzard/model.yaml -t config/Blizzard/train.yaml
